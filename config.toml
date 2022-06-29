@@ -1,11 +1,11 @@
-baseURL = 'https://kullanıcıadı.github.io'
+baseURL = 'https://adilaxmdv.github.io/'
 languageCode = 'en-us'
-title = "Benim güzel blogum"
+title = "Adil's Blog"
 theme = "hugo-coder"
 
 [author]
-  name = "Benim adım"
-  email = "deneme@ornek.com"
+  name = "Adil Ehmedzade"
+  email = "adilaxmdv@protonmail.com"
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -21,14 +21,13 @@ theme = "hugo-coder"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/kullanıcıadı"
+  url = "https://github.com/adilaxmdv"
 [[params.social]]
-  name = "RSS"
-  icon = "fa fa-2x fa-rss"
-  weight = 6
-  url = "index.xml"
-  rel = "alternate"
-  type = "application/rss+xml"
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://github.com/adilaxmdv"
+
 
 [[menu.main]]
   name = "Blog"
