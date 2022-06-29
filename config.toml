@@ -11,8 +11,8 @@ theme = "hugo-coder"
   unsafe = true
 
 [params]
-  author = "Benim adım"
-  info = "Ben bir geliştiriciyim"
+  author = "Adil Ehmedzade"
+  info = "Python Web Developer "
   description = "Burası benim mekanım"
   keywords = "blog"
   colorScheme = "dark"
