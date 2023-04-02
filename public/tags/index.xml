@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Benim güzel blogum</title>
+    <link>https://adilaxmdv.github.io/tags/</link>
+    <description>Recent content in Tags on Benim güzel blogum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>adilaxmdv@protonmail.com (Adil Ehmedzade)</managingEditor>
+    <webMaster>adilaxmdv@protonmail.com (Adil Ehmedzade)</webMaster><atom:link href="https://adilaxmdv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

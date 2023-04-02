@@ -1,0 +1,36 @@
+baseURL = 'https://adilaxmdv.github.io/'
+languageCode = 'en-us'
+title = "Benim güzel blogum"
+theme = "hugo-coder"
+
+[author]
+  name = "Adil Ehmedzade"
+  email = "adilaxmdv@protonmail.com"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  author = "Adil Ehmedzade"
+  info = "I am a BackendDeveloper"
+  description = "Here is my playground"
+  keywords = "blog"
+  colorScheme = "dark"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/adilaxmdv"
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-2x fa-rss"
+  weight = 6
+  url = "index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "posts/"
