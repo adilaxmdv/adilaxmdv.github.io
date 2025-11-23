@@ -2,6 +2,7 @@
 permalink: /about/
 title: "about"
 author_profile: true
+
 ---
 Research and writeups on penetration testing, bug bounty and some challenges/CTF’s
 ------
