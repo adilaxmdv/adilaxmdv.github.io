@@ -3,7 +3,7 @@ title: 'The outbound machine writeup'
 date: 2025-11-23
 permalink: /writeups/outbound-htb/
 tags:
-  - writeup
+  - writeups
   - htb
   - ctf
 ---
