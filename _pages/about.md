@@ -4,6 +4,7 @@ title: "about"
 author_profile: true
 
 ---
-Research and writeups on penetration testing, bug bounty and some challenges/CTF’s
+I share practical notes on penetration testing, bug bounty techniques, and CTF challenges.
+Everything here comes from real testing, real tools, and real mistakes.
 ------
-I will share some of my findings here, do not hesitate to contact me by email if needed.
+You can reach out anytime if you want to discuss security research.
