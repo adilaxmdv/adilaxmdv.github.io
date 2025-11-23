@@ -1,10 +1,7 @@
 ---
-permalink: /
+permalink: /about/
 title: "about"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 Research and writeups on penetration testing, bug bounty and some challenges/CTF’s
 ------
