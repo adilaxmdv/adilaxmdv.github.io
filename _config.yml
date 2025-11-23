@@ -27,8 +27,8 @@ author:
   name             : "Adil Ahmadzada"
   pronouns         : # example: "she/her"  
   bio              : "pentester && red teamer"
-  location         : "../"
-  employer         : ""
+  location         : "/"
+  employer         : 
   uri              : # URL
   email            : "adil.ahmadzada@proton.me" 
 
