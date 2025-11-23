@@ -1,7 +1,8 @@
 ---
-layout: splash
+layout: single
 title: "Home"
 permalink: /
+author_profile: true
 ---
 
 {% include base_path %}
