@@ -1,7 +1,7 @@
 ---
 title: 'The outbound machine writeup'
 date: 2025-11-23
-permalink: /writeups/outbound-htb/
+permalink: /outbound-htb/
 tags:
   - writeups
   - htb
