@@ -6,6 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I post my pentest writeups, CTF paths, and odd security findings here. Mostly for myself — but if you learn something from it, cool.
+about
+
+Research and writeups on penetration testing, bug bounty and some challenges/CTF’s
 ------
-You can always reach out.
+I will share some of my findings here, do not hesitate to contact me by email if needed.
