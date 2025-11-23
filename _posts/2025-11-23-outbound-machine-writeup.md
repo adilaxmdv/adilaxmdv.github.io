@@ -8,8 +8,7 @@ tags:
   - ctf
 ---
 
-# outbound -htb
-
+That was my first write up , Enjoy it
 
 
 # Enumeration
