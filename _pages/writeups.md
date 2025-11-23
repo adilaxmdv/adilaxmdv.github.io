@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Writeups"
-permalink: /writeups/
+permalink: /writeups
 tags: writeups
 ---
 
