@@ -69,7 +69,8 @@ whatweb http://mail.outbound.htb
 http://mail.outbound.htb [200 OK] Bootstrap, Content-Language[en], Cookies[roundcube_sessid], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][nginx/1.24.0 (Ubuntu)], HttpOnly[roundcube_sessid], IP[10.10.11.77], JQuery, PasswordField[_pass], RoundCube, Script, Title[Roundcube Webmail :: Welcome to Roundcube Webmail], X-Frame-Options[sameorigin], nginx[1.24.0]
 ```
 
-so when we try research about `Roundcube Webmail` exploit we got this https://raw.githubusercontent.com/fearsoff-org/CVE-2025-49113/refs/heads/main/CVE-2025-49113.php this script
+so when we try research about `Roundcube Webmail` exploit we got this 
+[exploit](https://raw.githubusercontent.com/fearsoff-org/CVE-2025-49113/refs/heads/main/CVE-2025-49113.php) this script
 
 so create a revshell and run a python server
 ```
@@ -104,6 +105,7 @@ we dont have python so lets use this command for full ttys
 SHELL=/bin/bash script -q /dev/null
 ```
 
+---
 
 # Lateral movement
 
@@ -288,7 +290,7 @@ here is password it is from `SELECT sess_id, vars, changed FROM session;`  base6
 
 The password encoded with `key = b'rcmail-!24ByteDESkey*Str'` from `config/config.inc.php` 
 
-make little cracker script 
+write a little cracker script 
 
 ```python
 import base64
@@ -441,7 +443,7 @@ jacob@outbound:~$ cat user.txt
 
 `user.txt` --> 55fc2aa5f3ef196d41e58b543c66d5ba
 
-
+---
 
 # Privilege Escalation
 
@@ -455,7 +457,8 @@ User jacob may run the following commands on outbound:
 ```
 
 
-When we check https://github.com/facebookincubator/below This address . We see it have important Security Notification https://github.com/facebookincubator/below/security/advisories/GHSA-9mc5-7qhg-fp3w
+When we check [https://github.com/facebookincubator/below](https://github.com/facebookincubator/below) This address . We see it have important Security Notification [https://github.com/facebookincubator/below/security/advisories/GHSA-9mc5-7qhg-fp3w](https://github.com/facebookincubator/below/security/advisories/GHSA-9mc5-7qhg-fp3w)
+
 
 [CVE-2025-27591](https://www.cve.org/CVERecord?id=CVE-2025-27591)
 
