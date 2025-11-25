@@ -8,6 +8,8 @@ tags:
   - ctf
 ---
 
+![](https://i.imgur.com/cnVh19b.png)
+
 That was my first write up , Enjoy it
 
 
