@@ -10,57 +10,26 @@ tags:
 
 ![](https://i.imgur.com/cnVh19b.png)
 
-That was my first write up , Enjoy it
+**Outbound** is a medium-difficulty Linux machine from HackTheBox. It involves exploiting a Roundcube Webmail vulnerability (CVE-2025-49113) to gain initial access, lateral movement through credential extraction from a MySQL database, and privilege escalation via CVE-2025-27591 in the Below resource monitoring tool.
 
+---
 
 # Enumeration
 
 ## Nmap Scan
 ```bash
-──(morpho㉿kali)-[~]
-└─$ nmap -sCV -p22,80 10.10.11.77 -v -T4
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-10 05:46 EDT
-NSE: Loaded 157 scripts for scanning.
-NSE: Script Pre-scanning.
-Initiating NSE at 05:46
-Completed NSE at 05:46, 0.00s elapsed
-Initiating NSE at 05:46
-Completed NSE at 05:46, 0.00s elapsed
-Initiating NSE at 05:46
-Completed NSE at 05:46, 0.00s elapsed
-Initiating Ping Scan at 05:46
-Scanning 10.10.11.77 [4 ports]
-Completed Ping Scan at 05:46, 0.12s elapsed (1 total hosts)
-Initiating SYN Stealth Scan at 05:46
-Scanning mail.outbound.htb (10.10.11.77) [2 ports]
-Discovered open port 80/tcp on 10.10.11.77
-Discovered open port 22/tcp on 10.10.11.77
-Completed SYN Stealth Scan at 05:46, 0.11s elapsed (2 total ports)
-Initiating Service scan at 05:46
-Scanning 2 services on mail.outbound.htb (10.10.11.77)
-Completed Service scan at 05:46, 7.46s elapsed (2 services on 1 host)
-NSE: Script scanning 10.10.11.77.
-Initiating NSE at 05:46
-Completed NSE at 05:46, 4.86s elapsed
-Initiating NSE at 05:46
-Completed NSE at 05:46, 0.37s elapsed
-Initiating NSE at 05:46
-Completed NSE at 05:46, 0.00s elapsed
-Nmap scan report for mail.outbound.htb (10.10.11.77)
-Host is up (0.088s latency).
+nmap -sCV -p22,80 10.10.11.77 -v -T4
 
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.12 (Ubuntu Linux; protocol 2.0)
-| ssh-hostkey: 
+| ssh-hostkey:
 |   256 0c:4b:d2:76:ab:10:06:92:05:dc:f7:55:94:7f:18:df (ECDSA)
 |_  256 2d:6d:4a:4c:ee:2e:11:b6:c8:90:e6:83:e9:df:38:b0 (ED25519)
 80/tcp open  http    nginx 1.24.0 (Ubuntu)
-| http-methods: 
+| http-methods:
 |_  Supported Methods: GET HEAD POST
 |_http-title: Roundcube Webmail :: Welcome to Roundcube Webmail
-|_http-trane-info: Problem with XML parsing of /evox/about
 |_http-server-header: nginx/1.24.0 (Ubuntu)
-|_http-favicon: Unknown favicon MD5: 924A68D347C80D0E502157E83812BB23
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
@@ -202,8 +171,9 @@ $config['smtp_server'] = 'localhost';
     - **Username**: roundcube
     - **Password**: RCDBPass2025
     - **Host**: localhost
-    - **Database**: 
-so continue with connect the database
+    - **Database**: roundcube
+
+So let's connect to the database:
 
 ```bash
 www-data@mail:/var/www/html/roundcube$ mysql -u roundcube -pRCDBPass2025 -h localhost roundcube
