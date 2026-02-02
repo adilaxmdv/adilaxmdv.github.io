@@ -1,5 +1,5 @@
 ---
-title: 'CodePartTwo Machine Writeup'
+title: 'CodePartTwo - HackTheBox Machine Writeup'
 date: 2025-11-15
 permalink: /codeparttwo-htb/
 tags:

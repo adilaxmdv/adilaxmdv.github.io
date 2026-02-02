@@ -1,5 +1,5 @@
 ---
-title: 'The outbound machine writeup'
+title: 'Outbound - HackTheBox Machine Writeup'
 date: 2025-11-23
 permalink: /outbound-htb/
 tags:
