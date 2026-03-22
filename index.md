@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Welcome — research and writeups on penetration testing, bug bounty and CTF writeups. Browse the latest posts below.
+pentester. i break things and write about it.
 
 {% if site.posts.size > 0 %}
   <h2>Latest posts</h2>

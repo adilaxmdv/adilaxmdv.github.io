@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Adil Ahmadzada "
 title_separator          : "-"
 name                     : &name "Adil Ahmadzada"
-description              : &description "something"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "pentester && red teamer"
 url                      : https://adilaxmdv.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -218,9 +218,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
@@ -246,20 +246,14 @@ timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
 
 
 # Archives
