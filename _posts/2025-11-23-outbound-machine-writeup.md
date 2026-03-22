@@ -8,7 +8,9 @@ tags:
   - ctf
 ---
 
-![Outbound](https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b1096fc86df3fb6035baad7f599094be.png)
+<img src="https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b1096fc86df3fb6035baad7f599094be.png" alt="Outbound" width="120" />
+
+<!--excerpt_end-->
 
 **Outbound** is a medium-difficulty Linux machine from HackTheBox. It involves exploiting a Roundcube Webmail vulnerability (CVE-2025-49113) to gain initial access, lateral movement through credential extraction from a MySQL database, and privilege escalation via CVE-2025-27591 in the Below resource monitoring tool.
 

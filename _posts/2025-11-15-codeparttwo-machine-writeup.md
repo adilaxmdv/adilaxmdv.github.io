@@ -8,7 +8,9 @@ tags:
   - ctf
 ---
 
-![CodePartTwo](https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ea23d7bc12459ef0c3db19067f02352a.png)
+<img src="https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ea23d7bc12459ef0c3db19067f02352a.png" alt="CodePartTwo" width="120" />
+
+<!--excerpt_end-->
 
 **CodePartTwo** is an easy Linux machine from HackTheBox. It involves exploiting a js2py sandbox escape vulnerability (CVE-2024-28397) to gain initial access, lateral movement through SQLite database credential extraction, and privilege escalation via npbackup-cli misconfiguration.
 
