@@ -1,5 +1,6 @@
 ---
-title: 'CodePartTwo'
+title: 'CodePartTwo - HTB'
+badge: 'https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/ea23d7bc12459ef0c3db19067f02352a.png'
 date: 2025-11-15
 permalink: /codeparttwo-htb/
 tags:

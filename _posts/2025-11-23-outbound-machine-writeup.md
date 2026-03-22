@@ -1,5 +1,6 @@
 ---
-title: 'Outbound'
+title: 'Outbound - HTB'
+badge: 'https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/b1096fc86df3fb6035baad7f599094be.png'
 date: 2025-11-23
 permalink: /outbound-htb/
 tags:
