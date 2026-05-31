@@ -413,10 +413,10 @@ drwx------ 2 jacob jacob 4096 Jun 11 11:32 .cache
 -rw-r--r-- 1 jacob jacob  807 Jun  8 12:14 .profile
 -rw-r----- 1 root  jacob   33 Oct 10 10:17 user.txt
 jacob@outbound:~$ cat user.txt 
-55fc2aa5f3ef196d41e58b543c66d5ba
+[redacted]
 ```
 
-`user.txt` --> 55fc2aa5f3ef196d41e58b543c66d5ba
+`user.txt` --> [redacted]
 
 ---
 
@@ -466,6 +466,6 @@ root@outbound:/tmp# cd /root
 root@outbound:~# ls
 root.txt
 root@outbound:~# cat root.txt 
-2c8b4d9d2e681563806985c69b736899
+[redacted]
 ```
 
