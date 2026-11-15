@@ -11,42 +11,40 @@ tags:
 
 ![Ladies and gentlemen... I am officially CPTS certified](/images/cpts-meme.png)
 
-Today I want to share my experience about the HTB CPTS certification. Before starting, I hope this blog finds you well.
+today I want share my experience about HTB CPTS certification. hope this blog finds u well.
 
-Okay, let's start from the beginning.
+okay lets start from the beginning.
 
 ## Background
 
-Before CPTS I had CompTIA PenTest+ and I'm in my 4th year of a BSc in Information Security. Before CPTS I hadn't really done this type of exam, and never did a long journey like this.
+before CPTS I had CompTIA PenTest+ and im in my 4th year of BSc in Information Security. this was my first hands-on exam like this, never did a long journey like this before.
 
 ## The Journey
 
-It all started one year ago. Yes, it took me a full year, but the path came to an end and I felt completely confident.
+took me about a year. I wrote all my notes in Obsidian, synced via Git and Syncthing, also read them during public transport on my phone.
 
-I wrote all my notes in Obsidian, synced via Git and Syncthing, and also read them during public transport on my phone.
+I did the modules slowly, at least 1 hour each day. sometimes there wasnt time during the week so I made up for it on weekends.
 
-I went through the modules slowly  - at least 1 hour each day. Sometimes there wasn't time to look into it during the week, so I would make up for that on the weekends.
+kept this pace until September 2026 for the Academy side. after September I started doing machines, full list at the end. also 1 week before the exam I did HTB Pro Lab **Dante**. not necessary but I did it to feed my confidence.
 
-I kept this pace until September 2026 for the Academy side. After September I started doing machines  - I'll mention my full machine list at the end. Also, 1 week before entering the CPTS exam I did the HTB Pro Lab **Dante**. It's not necessary, but I did it to feed my confidence.
+Dante is easier than CPTS btw. no deep rabbit holes compared to CPTS.
 
-I want to mention that Dante is easier than CPTS. There are no deep rabbit holes compared to CPTS.
-
-The whole Academy modules are important  - I'd say you should focus on each module, especially **AD Enumeration** and **Enumeration of Services**. That's what you really need in the exam.
+all the Academy modules are important but if u want to prioritize, **AD Enumeration** and **Enumeration of Services** is what u really need for the exam.
 
 ## The Exam
 
-The exam is 10 days. You get several machines that you need to fully pwn, and before the end of those 10 days you have to write a commercial pentest report and submit it.
+exam is 10 days. u get several machines, u need to pwn all of them and before the end of 10 days write a commercial pentest report and submit it.
 
-I started on a Saturday, and within 5 days I had fully pwned everything. If you're struggling in the exam  - do your research and always go back to the Academy modules before going deep. Check what they taught you, maybe you're missing something. That's exactly what I did, and it helped me hit the 8th flag. Yeah, the 8th flag  - it's the difficult one. The difficulty comes from the chain. You need the mindset to combine things and think outside the box.
+I started on Saturday and in 5 days already fully pwned everything. if u struggle in the exam, do ur research and always go back to Academy modules before going deep. check what they taught u, maybe u are missing something. thats exactly what I did and it helped me hit the 8th flag. yeah the 8th flag.. its the difficult one. the difficulty comes from the chain, u need the mindset to combine things and think outside the box.
 
 ## The Report
 
-The report was the easy part for me because I took notes and screenshots while pwning.
+report was the easy part because I was taking notes and screenshots while pwning.
 
-I used **SysReptor** with the CPTS template, and I also created findings templates that I'll share with you:
+I used **SysReptor** with the CPTS template, also created findings templates that ill share with u:
 [sysreptor-cpts-kit](https://github.com/adilaxmdv/sysreptor-cpts-kit)
 
-I also used **ShareX** for taking screenshots from Windows.
+also used **ShareX** for taking screenshots from Windows.
 
 ## My Setup
 
@@ -55,17 +53,15 @@ I also used **ShareX** for taking screenshots from Windows.
 
 ## Tools I Recommend
 
-These are the tools I used the most and highly recommend:
-
-- **Ligolo-ng**  - best thing you should learn. You need to feel confident with tunneling and pivoting
-- **BloodHound-CE**  - for playing with collected AD data
-- **RustHound-CE**  - for collecting data in AD environments
-- **NetExec**  - really the best tool ever, you can use it for everything
-- **Impacket**  - I think I don't need to say anything about this one
+- **Ligolo-ng** - best thing u should learn, u need to feel confident with tunneling and pivoting
+- **BloodHound-CE** - for playing with collected AD data
+- **RustHound-CE** - for collecting data in AD environments
+- **NetExec** - really the best tool ever u can use it for everything
+- **Impacket** - I dont think I need to say anything about this one
 
 ## Final Thoughts
 
-I really recommend this cert and path. Not because it can easily get you a job (maybe, I don't know), but because it gives you real hands-on experience with writing a commercial report and actual penetration testing.
+I really recommend this cert and path. not because it can easily get u a job (maybe idk) but it gives u real hands-on experience with writing a commercial report and actual pentesting.
 
 ## Machines I Did Before the Exam
 
@@ -80,4 +76,4 @@ I really recommend this cert and path. Not because it can easily get you a job (
 
 ---
 
-![CPTS Certificate  - Adil Ahmadzada, 12 Nov 2026](/images/cpts-cert.png)
+![CPTS Certificate - Adil Ahmadzada, 12 Nov 2026](/images/cpts-cert.png)
