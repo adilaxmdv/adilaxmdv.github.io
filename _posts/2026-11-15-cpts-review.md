@@ -49,7 +49,7 @@ also used **ShareX** for taking screenshots from Windows.
 ## My Setup
 
 - VMware + Kali 2026
-- Lenovo ThinkPad T14 Gen 6, 32GB RAM, 1TB SSD
+- Lenovo ThinkPad T14 Gen 6, Ultra 7 255U, 32GB RAM, 1TB SSD
 
 ## Tools I Recommend
 
