@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Adil Ahmadzada "
 title_separator          : "-"
 name                     : &name "Adil Ahmadzada"
-description              : &description "pentester && red teamer"
+description              : &description "red teamer"
 url                      : https://adilaxmdv.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Adil Ahmadzada"
   pronouns         : # example: "she/her"  
-  bio              : "pentester && red teamer"
+  bio              : "red teamer"
   location         : "/"
   employer         : 
   uri              : # URL
